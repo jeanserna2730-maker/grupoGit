@@ -10,25 +10,23 @@ import java.util.Scanner;
  */
 public class CALCU {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Entrada de datos
-        System.out.print("Ingresa el primer número: ");
+        System.out.print("Ingresa el primer numero: ");
         // Num1 permite decimales
         double num1 = scanner.nextDouble();
         // Num2 permite decimales
-        System.out.print("Ingresa el segundo número: ");
+        System.out.print("Ingresa el segundo numero: ");
         double num2 = scanner.nextDouble();
         // Menú de opciones
-        System.out.println("\nSelecciona una operación:");
+        System.out.println("\nSelecciona una operacion:");
         System.out.println("1. Sumar (+)");
         System.out.println("2. Restar (-)");
         System.out.println("3. Multiplicar (*)");
         System.out.println("4. Dividir (/)");
-        System.out.print("Opción: ");
+        System.out.print("Opcion: ");
         int opcion = scanner.nextInt();
 
         double resultado = 0;
@@ -54,7 +52,7 @@ public class CALCU {
                 }
                 break;
             default:
-                System.out.println("\nOpción no válida.");
+                System.out.println("\nOpcion no valida.");
                 operacionValida = false;
                 break;
                 
@@ -66,8 +64,5 @@ public class CALCU {
 
         scanner.close();
         }
-    }
-    }
-    
-    
-}
+    }   
+
