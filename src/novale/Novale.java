@@ -32,7 +32,7 @@ public class Novale {
         System.out.print("=".repeat(20)+"\nADIVINAR CREDENCIALES \n"+ "=".repeat(20));
         
         for (int i = 0; i < 3; i++) {
-            System.out.println("NOTA: Tiene solo 3 intentos: INTENTO NUM: " +(3-i));
+            System.out.println("\nNOTA: Tiene solo 3 intentos: INTENTO NUM: " +(3-i));
                  System.out.println("\nINTRODUZCA CONTRASEÑA: ");
                  
         String contrasena=sc.nextLine(); 
