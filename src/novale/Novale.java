@@ -19,13 +19,38 @@ public class Novale {
         System.out.println("Si tienes hambre, come");
         System.out.println("sr isacc menos 1 por malcriado");
         System.out.println("Perdon Inge pipipipi");
-        suma();
+       
+        crear_un_algoritmo_para_adivinar_credenciales();
     }
     //crear un algoritmo para adivinar credenciales
     
     public static void crear_un_algoritmo_para_adivinar_credenciales(){
         //crear un algoritmo para adivinar credenciales
+        Scanner sc =new Scanner(System.in);
+        final String clave= "ConTraSeÑa9555";
+        System.out.println("");
+        System.out.print("=".repeat(20)+"\nADIVINAR CREDENCIALES \n"+ "=".repeat(20));
+        
+        for (int i = 0; i < 3; i++) {
+            System.out.println("NOTA: Tiene solo 3 intentos: INTENTO NUM: " +(3-i));
+                 System.out.println("\nINTRODUZCA CONTRASEÑA: ");
+                 
+        String contrasena=sc.nextLine(); 
+                if (contrasena.equals(clave)) {
+            System.out.println("CONTRASEÑA CORRECTA. !BIENVENIDO! ");
+            return;
+        } 
+                System.out.println("CONTRASEÑA INCORRECTO.VUELVA A INTENTAR: INTENTO: "+(i+1+" AGOTADO"));
+        }
+        System.out.println("Intentos AGOTADOs !BLOQUEADO!");
+        
+
+       
+        
     }
+        
+        
+    
     
    public static void suma(){
        //suma de dos numeros
@@ -40,5 +65,6 @@ public class Novale {
        
     
 }
+   }
    
-}
+
