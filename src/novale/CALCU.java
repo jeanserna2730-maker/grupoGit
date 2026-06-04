@@ -57,7 +57,17 @@ public class CALCU {
                 System.out.println("\nOpción no válida.");
                 operacionValida = false;
                 break;
+                
+        }
+        // Mostrar resultado
+        if (operacionValida) {
+            System.out.println("\nEl resultado es: " + resultado);
+        }
+
+        scanner.close();
         }
     }
+    }
+    
     
 }
