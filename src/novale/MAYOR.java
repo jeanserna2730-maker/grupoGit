@@ -15,6 +15,7 @@ public class MAYOR {
     public static void main(String[] args) {
        
     Scanner sc=new Scanner(System.in);
+    //Ingresar numeros  >:D
     System.out.printf("Numero 1: "); int n1=sc.nextInt();
     System.out.printf("Numero 2: "); int n2=sc.nextInt();
     System.out.printf("Numero 3: "); int n3=sc.nextInt();
