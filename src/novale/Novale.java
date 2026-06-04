@@ -3,12 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package novale;
-
+import java.util.Scanner;
 /**
  *
  * @author el_ingeniero
  */
 public class Novale {
+       
 
     /**
      * @param args the command line arguments
@@ -17,6 +18,20 @@ public class Novale {
         // TODO code application logic here
         System.out.println("prueba");
         System.out.println("hola mundo");
+        suma();
     }
     
+   public static void suma(){
+       Scanner sc =new Scanner(System.in);
+       System.out.println("INGRESE UN NUMERO");
+       int num1=sc.nextInt();
+       System.out.println("INGRESE OTRO NUMERO");
+       int num2=sc.nextInt();
+       int sum=num1+num2;
+       System.out.println(num1+"+"+num2+"="+sum);
+       
+       
+    
+}
+   
 }
