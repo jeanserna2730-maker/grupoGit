@@ -17,6 +17,7 @@ public class Novale {
         System.out.println("prueba ");
         System.out.println("hola muchachos");
         System.out.println("Si tienes hambre, come");
+        System.out.println("sr isacc menos 1 por malcriado");
         suma();
     }
     
