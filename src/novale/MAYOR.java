@@ -21,7 +21,11 @@ public class MAYOR {
     System.out.println("-".repeat(20));
     if (n1>n2 && n1>n3){
     System.out.printf("NUMERO %d.MAYOR",n1);
-    
+    }else if(n2>n1 && n2>n3){
+    System.out.printf("NUMERO %d -> MAYOR",n2);
+    }else{
+    System.out.printf("NUMERO %d -> MAYOR",n3);
+ }
     }
     
 }
