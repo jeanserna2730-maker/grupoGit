@@ -33,6 +33,31 @@ public class CALCU {
 
         double resultado = 0;
         boolean operacionValida = true;
+        // Procesamiento de la operación
+        switch (opcion) {
+            case 1:
+                resultado = num1 + num2;
+                break;
+            case 2:
+                resultado = num1 - num2;
+                break;
+            case 3:
+                resultado = num1 * num2;
+                break;
+            case 4:
+                // Validación para evitar división entre cero
+                if (num2 != 0) {
+                    resultado = num1 / num2;
+                } else {
+                    System.out.println("\nError: No se puede dividir entre cero.");
+                    operacionValida = false;
+                }
+                break;
+            default:
+                System.out.println("\nOpción no válida.");
+                operacionValida = false;
+                break;
+        }
     }
     
 }
