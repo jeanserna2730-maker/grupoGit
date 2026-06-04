@@ -15,9 +15,11 @@ public class CALCU {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // Entrada de datos
         System.out.print("Ingresa el primer número: ");
+        // Num1 permite decimales
         double num1 = scanner.nextDouble();
-
+        // Num2 permite decimales
         System.out.print("Ingresa el segundo número: ");
         double num2 = scanner.nextDouble();
     }
