@@ -21,6 +21,11 @@ public class Novale {
         System.out.println("Perdon Inge pipipipi");
         suma();
     }
+    //crear un algoritmo para adivinar credenciales
+    
+    public static void crear_un_algoritmo_para_adivinar_credenciales(){
+        //crear un algoritmo para adivinar credenciales
+    }
     
    public static void suma(){
        //suma de dos numeros
