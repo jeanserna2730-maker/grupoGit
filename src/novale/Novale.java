@@ -18,6 +18,7 @@ public class Novale {
         // TODO code application logic here
         System.out.println("prueba");
         System.out.println("hola mundo");
+        System.out.println("El secreto de salir adelante es empezar");
         suma();
     }
     
