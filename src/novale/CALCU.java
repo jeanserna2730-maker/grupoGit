@@ -4,10 +4,7 @@
  */
 package novale;
 import java.util.Scanner;
-/**
- *
- * @author USUARIO
- */
+
 public class CALCU {
 
 

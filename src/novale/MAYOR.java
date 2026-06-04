@@ -6,10 +6,7 @@ package novale;
 
 import java.util.Scanner;
 
-/**
- *
- * @author USUARIO
- */
+
 public class MAYOR {
 
     public static void main(String[] args) {
