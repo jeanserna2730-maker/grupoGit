@@ -21,6 +21,7 @@ public class Novale {
     }
     
    public static void suma(){
+       //suma de dos numeros
        Scanner sc =new Scanner(System.in);
        System.out.println("INGRESE UN NUMERO");
        int num1=sc.nextInt();
