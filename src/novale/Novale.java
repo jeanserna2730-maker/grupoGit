@@ -27,7 +27,7 @@ public class Novale {
     public static void crear_un_algoritmo_para_adivinar_credenciales(){
         //crear un algoritmo para adivinar credenciales
         Scanner sc =new Scanner(System.in);
-        final String clave= "ConTraSeÑa9555";
+        final String clave= "ConTraSeÑa9555";//contraseña segura
         System.out.println("");
         System.out.print("=".repeat(20)+"\nADIVINAR CREDENCIALES \n"+ "=".repeat(20));
         
